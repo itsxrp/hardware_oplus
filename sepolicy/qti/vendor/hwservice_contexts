@@ -22,6 +22,7 @@ vendor.dolby_v3_6.hardware.dms360::IDms             u:object_r:hal_dms_hwservice
 vendor.oplus.hardware.biometrics.fingerprint::IBiometricsFingerprint    u:object_r:hal_fingerprint_hwservice:s0
 vendor.oplus.hardware.commondcs::ICommonDcsHalService                   u:object_r:hal_fingerprint_hwservice:s0
 vendor.oplus.hardware.touch::IOplusTouch                                u:object_r:hal_fingerprint_hwservice:s0
+vendor.oplus.hardware.osense.client::IOsenseAidlHalReporter             u:object_r:hal_fingerprint_hwservice:s0
 
 # NFC
 vendor.nxp.eventprocessor::INxpEseEvtProcessor    u:object_r:hal_nfc_hwservice:s0
