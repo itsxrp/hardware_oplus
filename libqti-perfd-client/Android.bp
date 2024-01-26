@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 cc_library_shared {
     name: "libqti-perfd-client",
     proprietary: true,
@@ -10,8 +11,23 @@ cc_library_shared {
         "-Wextra",
         "-Wall",
     ],
+=======
+//
+// Copyright (C) 2021 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_shared {
+    name: "libqti-perfd-client",
+    srcs: ["client.c"],
+>>>>>>> d6673be (Import dummy perfd-client lib)
     shared_libs: [
         "liblog",
         "libutils",
     ],
+<<<<<<< HEAD
+=======
+    vendor: true,
+>>>>>>> d6673be (Import dummy perfd-client lib)
 }
